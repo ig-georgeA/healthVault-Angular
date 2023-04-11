@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
-import { IgxListModule, IgxButtonModule, IgxRippleModule, IgxIconModule } from 'igniteui-angular';
+import { IgxListModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxListModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule } from '@infragistics/igniteui-angular';
 import { MedicationsComponent } from './medications.component';
 
 describe('MedicationsComponent', () => {
@@ -12,7 +12,7 @@ describe('MedicationsComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ MedicationsComponent ],
-      imports: [ NoopAnimationsModule, FormsModule, IgxListModule, IgxButtonModule, IgxRippleModule, IgxIconModule ]
+      imports: [ NoopAnimationsModule, FormsModule, IgxListModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxListModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxIconModule ]
     })
     .compileComponents();
   });
